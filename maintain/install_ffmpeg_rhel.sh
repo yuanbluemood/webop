@@ -7,5 +7,5 @@ gpgcheck=1
 enabled=1
 EOF
 
-rpm --import http://apt.sw.be/RPM-GPG-KEY.dag.txt
-yum -y install ffmpeg ffmpeg-devel
+rpm --import http://apt.sw.be/RPM-GPG-KEY.dag.txt;
+yum -y install ffmpeg ffmpeg-devel;
